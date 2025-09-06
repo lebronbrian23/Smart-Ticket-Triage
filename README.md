@@ -3,7 +3,7 @@
 A Laravel 11 + Vue 3 (Options API) SPA for managing support tickets with AI-assisted classification.
 
 ---
-
+![](/HomeScreen.png)
 ## 🚀 Setup (≤ 10 steps)
 
 1. **Clone the repo**
@@ -219,7 +219,7 @@ A Laravel 11 + Vue 3 (Options API) SPA for managing support tickets with AI-assi
 2. In Postman, select the environment **Smart Ticket Triage Local**.
 
 3. The collection includes:
-    - `GET /tickets` → list tickets (with optional `q` search param)
+    - `GET /tickets` → list tickets (with optional `search` search param)
     - `POST /tickets` → create a new ticket
     - `GET /tickets/:id` → show a ticket
     - `PATCH /tickets/:id` → update ticket status/category/note
